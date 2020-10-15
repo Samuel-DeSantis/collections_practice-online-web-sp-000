@@ -39,3 +39,7 @@ def sum_array(arr)
   arr.each { |num| sum += num }
   return sum
 end
+
+def add_s(arr)
+  arr.each_with_index.collect { |str, index| (index != 1) ? str + "s" : next}
+end
