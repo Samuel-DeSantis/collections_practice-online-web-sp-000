@@ -13,3 +13,7 @@ def swap_elements(arr)
   arr[2] = temp
   return arr
 end
+def reverse_array(arr)
+  new_arr = arr.sort { |a, b| b <=> a}
+  new_arr
+end
