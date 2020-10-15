@@ -20,4 +20,5 @@ def reverse_array(arr)
     new_arr[i] = num
     i-=1
   end
+  return new_arr
 end
