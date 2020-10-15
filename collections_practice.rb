@@ -41,5 +41,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index.collect { |str, index| (index != 1) ? str + "s" : next}
+  arr.each_with_index.collect { |str, index| (index != 1) ? str + "s" : str}
 end
