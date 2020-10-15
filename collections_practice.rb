@@ -31,5 +31,5 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.collect { |str| str[0] === "a" ? str : next}
+  arr.keep_if { |str| str[0] === "a" ? str : next}
 end
