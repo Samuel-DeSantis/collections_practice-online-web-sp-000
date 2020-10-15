@@ -15,7 +15,7 @@ def swap_elements(arr)
 end
 def reverse_array(arr)
   new_arr = []
-  i = arr.length-1
+  i = arr.length - 1
   arr.each do |num|
     new_arr[i] = num
     i-=1
