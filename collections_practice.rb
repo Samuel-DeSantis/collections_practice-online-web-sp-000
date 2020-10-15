@@ -33,3 +33,8 @@ end
 def find_a(arr)
   arr.keep_if { |str| str[0] === "a"}
 end
+
+def sum_array(arr)
+  sum = 0
+  arr.each { |num| sum += num }
+end
