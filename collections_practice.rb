@@ -14,6 +14,10 @@ def swap_elements(arr)
   return arr
 end
 def reverse_array(arr)
-  new_arr = arr.sort { |a, b| b <=> a}
-  new_arr
+  new_arr = []
+  i = arr.length
+  arr.each do |num|
+    new_arr[i] = num
+    i-=1
+  end
 end
